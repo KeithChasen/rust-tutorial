@@ -23,4 +23,7 @@ pub fn run() {
         10,
         10
     );
+
+    //placeholder for debug trait
+    println!("{:?}", (12, true, "hello"));
 }
