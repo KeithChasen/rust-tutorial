@@ -15,4 +15,12 @@ pub fn run() {
         name = "Kostya", 
         language = "Rust"
     );
+
+    // Placeholder traits
+    println!(
+        "Binary: {:b}, Hex: {:x} Octal {:o}", 
+        10, 
+        10,
+        10
+    );
 }
