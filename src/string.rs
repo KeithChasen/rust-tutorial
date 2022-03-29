@@ -32,4 +32,11 @@ pub fn run() {
     }
 
     println!("{} {}", hello, phrase);
+
+    // create string with capacity
+    let mut s = String::with_capacity(10);
+    s.push('a');
+    s.push('b');
+
+    println!("{}", s);
 }
