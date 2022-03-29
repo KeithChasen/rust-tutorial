@@ -38,5 +38,12 @@ pub fn run() {
     s.push('a');
     s.push('b');
 
+    // assertion testing
+    assert_eq!(2, s.len());
+    assert_eq!(3, s.len());
+
+    assert_eq!(10, s.capacity());
+    assert_eq!(11, s.capacity());
+
     println!("{}", s);
 }
