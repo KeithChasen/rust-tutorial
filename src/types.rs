@@ -20,5 +20,9 @@ pub fn run() {
     // get boolean from expression
     let is_greater = 10 > 5;
 
-    println!("{:?}", (x,y,a,is_active, is_it, is_greater))
+    // char
+    let a1 = 'a';
+    let face = '\u{1F600}';
+
+    println!("{:?}", (x,y,a,is_active, is_it, is_greater, a1, face))
 }
